@@ -10,7 +10,7 @@ sudo chmod -R 777 storage/
 - Adicionar a key do Anthropic na diretiva ANTHROPIC_API_KEY do .env
 
 
-Usando a OpenAI
+Usando a OpenAI: https://platform.openai.com
 
 ./vendor/bin/sail composer require openai-php/laravel
 ./vendor/bin/sail artisan openai:install
